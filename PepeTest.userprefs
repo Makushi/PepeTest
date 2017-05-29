@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameOver.cs">
+    <Files>
+      <File FileName="Assets\Scripts\FlipCard.cs" Line="83" Column="1" />
+      <File FileName="Assets\Scripts\CardHandler.cs" Line="46" Column="27" />
+      <File FileName="Assets\Scripts\FaceAssigner.cs" Line="19" Column="51" />
+      <File FileName="Assets\Scripts\GameOver.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\Start.cs" Line="11" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
