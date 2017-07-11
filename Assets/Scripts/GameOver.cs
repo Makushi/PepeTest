@@ -7,7 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour {
 
 	public Text timer;
-	private float time = 60.0f;
+	private float timePerCard = 5.0f;
+	private float time;
+
+	void Start()
+	{
+		time = timePerCard * transform.childCount;
+	}
 
 	void Update()
 	{

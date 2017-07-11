@@ -6,7 +6,6 @@ public class CardHandler : MonoBehaviour {
 
 	private GameObject card1;
 	private GameObject card2;
-	private bool rotate = true;
 	private bool bothAssigned = false;
 	public GameObject board;
 

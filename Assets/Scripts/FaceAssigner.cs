@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FaceAssigner : MonoBehaviour {
 	public GameObject board;
+	private int cardCount;
 	// Use this for initialization
 	void Start () {
+		cardCount = board.transform.childCount;
 		AssingFaces ();
 	}
 
 	void AssingFaces()
 	{
 		var i = 0;
-		for (int materialName = 1; materialName < 9; materialName++)
+		for (int materialName = 1; materialName <= (cardCount / 2); materialName++)
 		{
 			for (int j = 0; j < 2; j++)
 			{
